@@ -1,7 +1,9 @@
 import React from 'react';
 
-import { Content, Title } from '@/styles/pages/Home';
-import SEO from '@/components/SEO';
+import { Content, Title } from '../styles/pages/Home';
+import SEO from '../components/SEO';
+
+import Rocket from '../assets/rocket.svg';
 
 const Home: React.FC = () => (
   <Content>
@@ -10,7 +12,8 @@ const Home: React.FC = () => (
       description="O melhor site desenvolvido em NextJS já visto!"
       image="promo.jpg"
     />
-    <Title>Hello from Home!</Title>
+    <Rocket />
+    <Title>Hello world!</Title>
   </Content>
 );
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Content, Title, SubTitle } from '@/styles/pages/NotFound';
+import { Content, Title, SubTitle } from '../styles/pages/NotFound';
 
 const NotFound: React.FC = () => (
   <Content>
