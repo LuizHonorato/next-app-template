@@ -42,8 +42,10 @@
     "import/no-duplicates": "off",
     "no-console": "off",
     "no-use-before-define": "off",
+    "no-shadow": "off",
     "implicit-arrow-linebreak": "off",
     "arrow-parens": "off",
+    "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
     "import/extensions": [
       "error",
